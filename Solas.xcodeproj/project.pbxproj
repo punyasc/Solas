@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B59493451FC3C25A00CF395F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59493441FC3C25A00CF395F /* AppDelegate.swift */; };
+		B59493471FC3C25A00CF395F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59493461FC3C25A00CF395F /* FirstViewController.swift */; };
+		B59493491FC3C25A00CF395F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59493481FC3C25A00CF395F /* SecondViewController.swift */; };
+		B594934C1FC3C25A00CF395F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B594934A1FC3C25A00CF395F /* Main.storyboard */; };
+		B594934E1FC3C25A00CF395F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B594934D1FC3C25A00CF395F /* Assets.xcassets */; };
+		B59493511FC3C25A00CF395F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B594934F1FC3C25A00CF395F /* LaunchScreen.storyboard */; };
+		B594935C1FC3C25A00CF395F /* SolasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594935B1FC3C25A00CF395F /* SolasTests.swift */; };
+		B59493671FC3C25A00CF395F /* SolasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59493661FC3C25A00CF395F /* SolasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B59493581FC3C25A00CF395F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59493391FC3C25900CF395F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B59493401FC3C25A00CF395F;
+			remoteInfo = Solas;
+		};
+		B59493631FC3C25A00CF395F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59493391FC3C25900CF395F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B59493401FC3C25A00CF395F;
+			remoteInfo = Solas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B59493411FC3C25A00CF395F /* Solas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59493441FC3C25A00CF395F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B59493461FC3C25A00CF395F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B59493481FC3C25A00CF395F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B594934B1FC3C25A00CF395F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B594934D1FC3C25A00CF395F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B59493501FC3C25A00CF395F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B59493521FC3C25A00CF395F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59493571FC3C25A00CF395F /* SolasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B594935B1FC3C25A00CF395F /* SolasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolasTests.swift; sourceTree = "<group>"; };
+		B594935D1FC3C25A00CF395F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59493621FC3C25A00CF395F /* SolasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59493661FC3C25A00CF395F /* SolasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolasUITests.swift; sourceTree = "<group>"; };
+		B59493681FC3C25A00CF395F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B594933E1FC3C25A00CF395F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59493541FC3C25A00CF395F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B594935F1FC3C25A00CF395F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B59493381FC3C25900CF395F = {
+			isa = PBXGroup;
+			children = (
+				B59493431FC3C25A00CF395F /* Solas */,
+				B594935A1FC3C25A00CF395F /* SolasTests */,
+				B59493651FC3C25A00CF395F /* SolasUITests */,
+				B59493421FC3C25A00CF395F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B59493421FC3C25A00CF395F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59493411FC3C25A00CF395F /* Solas.app */,
+				B59493571FC3C25A00CF395F /* SolasTests.xctest */,
+				B59493621FC3C25A00CF395F /* SolasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B59493431FC3C25A00CF395F /* Solas */ = {
+			isa = PBXGroup;
+			children = (
+				B59493441FC3C25A00CF395F /* AppDelegate.swift */,
+				B59493461FC3C25A00CF395F /* FirstViewController.swift */,
+				B59493481FC3C25A00CF395F /* SecondViewController.swift */,
+				B594934A1FC3C25A00CF395F /* Main.storyboard */,
+				B594934D1FC3C25A00CF395F /* Assets.xcassets */,
+				B594934F1FC3C25A00CF395F /* LaunchScreen.storyboard */,
+				B59493521FC3C25A00CF395F /* Info.plist */,
+			);
+			path = Solas;
+			sourceTree = "<group>";
+		};
+		B594935A1FC3C25A00CF395F /* SolasTests */ = {
+			isa = PBXGroup;
+			children = (
+				B594935B1FC3C25A00CF395F /* SolasTests.swift */,
+				B594935D1FC3C25A00CF395F /* Info.plist */,
+			);
+			path = SolasTests;
+			sourceTree = "<group>";
+		};
+		B59493651FC3C25A00CF395F /* SolasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B59493661FC3C25A00CF395F /* SolasUITests.swift */,
+				B59493681FC3C25A00CF395F /* Info.plist */,
+			);
+			path = SolasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59493401FC3C25A00CF395F /* Solas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B594936B1FC3C25A00CF395F /* Build configuration list for PBXNativeTarget "Solas" */;
+			buildPhases = (
+				B594933D1FC3C25A00CF395F /* Sources */,
+				B594933E1FC3C25A00CF395F /* Frameworks */,
+				B594933F1FC3C25A00CF395F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solas;
+			productName = Solas;
+			productReference = B59493411FC3C25A00CF395F /* Solas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B59493561FC3C25A00CF395F /* SolasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B594936E1FC3C25A00CF395F /* Build configuration list for PBXNativeTarget "SolasTests" */;
+			buildPhases = (
+				B59493531FC3C25A00CF395F /* Sources */,
+				B59493541FC3C25A00CF395F /* Frameworks */,
+				B59493551FC3C25A00CF395F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B59493591FC3C25A00CF395F /* PBXTargetDependency */,
+			);
+			name = SolasTests;
+			productName = SolasTests;
+			productReference = B59493571FC3C25A00CF395F /* SolasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B59493611FC3C25A00CF395F /* SolasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59493711FC3C25A00CF395F /* Build configuration list for PBXNativeTarget "SolasUITests" */;
+			buildPhases = (
+				B594935E1FC3C25A00CF395F /* Sources */,
+				B594935F1FC3C25A00CF395F /* Frameworks */,
+				B59493601FC3C25A00CF395F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B59493641FC3C25A00CF395F /* PBXTargetDependency */,
+			);
+			name = SolasUITests;
+			productName = SolasUITests;
+			productReference = B59493621FC3C25A00CF395F /* SolasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B59493391FC3C25900CF395F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Punya Chatterjee";
+				TargetAttributes = {
+					B59493401FC3C25A00CF395F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B59493561FC3C25A00CF395F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B59493401FC3C25A00CF395F;
+					};
+					B59493611FC3C25A00CF395F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B59493401FC3C25A00CF395F;
+					};
+				};
+			};
+			buildConfigurationList = B594933C1FC3C25900CF395F /* Build configuration list for PBXProject "Solas" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B59493381FC3C25900CF395F;
+			productRefGroup = B59493421FC3C25A00CF395F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59493401FC3C25A00CF395F /* Solas */,
+				B59493561FC3C25A00CF395F /* SolasTests */,
+				B59493611FC3C25A00CF395F /* SolasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B594933F1FC3C25A00CF395F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59493511FC3C25A00CF395F /* LaunchScreen.storyboard in Resources */,
+				B594934E1FC3C25A00CF395F /* Assets.xcassets in Resources */,
+				B594934C1FC3C25A00CF395F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59493551FC3C25A00CF395F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59493601FC3C25A00CF395F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B594933D1FC3C25A00CF395F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59493491FC3C25A00CF395F /* SecondViewController.swift in Sources */,
+				B59493451FC3C25A00CF395F /* AppDelegate.swift in Sources */,
+				B59493471FC3C25A00CF395F /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59493531FC3C25A00CF395F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B594935C1FC3C25A00CF395F /* SolasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B594935E1FC3C25A00CF395F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59493671FC3C25A00CF395F /* SolasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B59493591FC3C25A00CF395F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B59493401FC3C25A00CF395F /* Solas */;
+			targetProxy = B59493581FC3C25A00CF395F /* PBXContainerItemProxy */;
+		};
+		B59493641FC3C25A00CF395F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B59493401FC3C25A00CF395F /* Solas */;
+			targetProxy = B59493631FC3C25A00CF395F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B594934A1FC3C25A00CF395F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B594934B1FC3C25A00CF395F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B594934F1FC3C25A00CF395F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59493501FC3C25A00CF395F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B59493691FC3C25A00CF395F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B594936A1FC3C25A00CF395F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B594936C1FC3C25A00CF395F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZV9JB2U7V;
+				INFOPLIST_FILE = Solas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = punya.Solas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B594936D1FC3C25A00CF395F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZV9JB2U7V;
+				INFOPLIST_FILE = Solas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = punya.Solas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B594936F1FC3C25A00CF395F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZV9JB2U7V;
+				INFOPLIST_FILE = SolasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = punya.SolasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solas.app/Solas";
+			};
+			name = Debug;
+		};
+		B59493701FC3C25A00CF395F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZV9JB2U7V;
+				INFOPLIST_FILE = SolasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = punya.SolasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solas.app/Solas";
+			};
+			name = Release;
+		};
+		B59493721FC3C25A00CF395F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZV9JB2U7V;
+				INFOPLIST_FILE = SolasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = punya.SolasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Solas;
+			};
+			name = Debug;
+		};
+		B59493731FC3C25A00CF395F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZV9JB2U7V;
+				INFOPLIST_FILE = SolasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = punya.SolasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Solas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B594933C1FC3C25900CF395F /* Build configuration list for PBXProject "Solas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59493691FC3C25A00CF395F /* Debug */,
+				B594936A1FC3C25A00CF395F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B594936B1FC3C25A00CF395F /* Build configuration list for PBXNativeTarget "Solas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B594936C1FC3C25A00CF395F /* Debug */,
+				B594936D1FC3C25A00CF395F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B594936E1FC3C25A00CF395F /* Build configuration list for PBXNativeTarget "SolasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B594936F1FC3C25A00CF395F /* Debug */,
+				B59493701FC3C25A00CF395F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59493711FC3C25A00CF395F /* Build configuration list for PBXNativeTarget "SolasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59493721FC3C25A00CF395F /* Debug */,
+				B59493731FC3C25A00CF395F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B59493391FC3C25900CF395F /* Project object */;
+}
