@@ -7,15 +7,50 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuthUI
+import FirebaseGoogleAuthUI
+import FirebaseFacebookAuthUI
+
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate, FUIAuthDelegate {
+    
+    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
+        print("successful login")
+    }
+    
     var window: UIWindow?
 
+    func application(_ app: UIApplication, open url: URL,
+                     options: [UIApplicationOpenURLOptionsKey : Any]) -> Bool {
+        let sourceApplication = options[UIApplicationOpenURLOptionsKey.sourceApplication] as! String?
+        if FUIAuth.defaultAuthUI()?.handleOpen(url, sourceApplication: sourceApplication) ?? false {
+            return true
+        }
+        // other URL handling goes here.
+        return false
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        /*Potential Firebase implentation code
+        FirebaseApp.configure()
+        let authUI = FUIAuth.defaultAuthUI()
+        // You need to adopt a FUIAuthDelegate protocol to receive callback
+        authUI?.delegate = self
         // Override point for customization after application launch.
+        
+        let providers: [FUIAuthProvider] = [
+            FUIGoogleAuth(),
+            FUIFacebookAuth()
+        ]
+        authUI?.providers = providers
+        let authViewController = authUI!.authViewController()
+        
+        //self.window?.rootViewController = authViewController
+        //self.window?.makeKeyAndVisible()*/
+        
         return true
     }
 

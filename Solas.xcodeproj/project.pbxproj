@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98E800EE7E7A01EBA4C95231 /* Pods_SolasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D8E55828682E98DA106408 /* Pods_SolasTests.framework */; };
+		9DED29560351DBF91A66F529 /* Pods_Solas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7F8AD4F511DE22025D2DE4 /* Pods_Solas.framework */; };
+		B50ABD8D1FCAA90000E37009 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50ABD8C1FCAA90000E37009 /* LoginViewController.swift */; };
+		B50ABD8F1FCAAFF500E37009 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B50ABD8E1FCAAFF200E37009 /* GoogleService-Info.plist */; };
+		B50ABD901FCAAFF600E37009 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B50ABD8E1FCAAFF200E37009 /* GoogleService-Info.plist */; };
+		B50ABD911FCAAFF600E37009 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B50ABD8E1FCAAFF200E37009 /* GoogleService-Info.plist */; };
 		B59493451FC3C25A00CF395F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59493441FC3C25A00CF395F /* AppDelegate.swift */; };
 		B59493471FC3C25A00CF395F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59493461FC3C25A00CF395F /* FirstViewController.swift */; };
 		B59493491FC3C25A00CF395F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59493481FC3C25A00CF395F /* SecondViewController.swift */; };
@@ -15,6 +21,27 @@
 		B59493511FC3C25A00CF395F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B594934F1FC3C25A00CF395F /* LaunchScreen.storyboard */; };
 		B594935C1FC3C25A00CF395F /* SolasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594935B1FC3C25A00CF395F /* SolasTests.swift */; };
 		B59493671FC3C25A00CF395F /* SolasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59493661FC3C25A00CF395F /* SolasUITests.swift */; };
+		B59493751FC3C81900CF395F /* HotNowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59493741FC3C81900CF395F /* HotNowTableViewCell.swift */; };
+		B594937C1FC3D47100CF395F /* HotNowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594937B1FC3D47100CF395F /* HotNowTableViewController.swift */; };
+		B594937E1FC3D69F00CF395F /* SolasPOI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594937D1FC3D69F00CF395F /* SolasPOI.swift */; };
+		B59493801FC3E87D00CF395F /* POIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594937F1FC3E87D00CF395F /* POIViewController.swift */; };
+		B59493821FC4010300CF395F /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59493811FC4010300CF395F /* FilterTableViewController.swift */; };
+		B5AB4C1F1FCCA1B90037F9F9 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB4C1E1FCCA1B90037F9F9 /* FilterViewController.swift */; };
+		B5AB4C211FCF520C0037F9F9 /* ExpandableCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB4C201FCF520C0037F9F9 /* ExpandableCells.swift */; };
+		B5AB4C231FD143360037F9F9 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB4C221FD143360037F9F9 /* CheckInViewController.swift */; };
+		B5AB4C251FD1A5860037F9F9 /* CheckInMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB4C241FD1A5860037F9F9 /* CheckInMapViewController.swift */; };
+		B5AB4C271FD1AC310037F9F9 /* CheckInSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB4C261FD1AC310037F9F9 /* CheckInSearchTableViewController.swift */; };
+		B5AB4C2A1FD1BF230037F9F9 /* PlacemarkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB4C291FD1BF220037F9F9 /* PlacemarkDetailViewController.swift */; };
+		B5AB4C2C1FD1C84C0037F9F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AB4C2B1FD1C84C0037F9F9 /* HomeViewController.swift */; };
+		B5D6CD941FD5E42D0014CD61 /* FilterResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6CD931FD5E42D0014CD61 /* FilterResultViewController.swift */; };
+		B5D6CD961FD5E7630014CD61 /* FilterResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6CD951FD5E7630014CD61 /* FilterResultTableViewController.swift */; };
+		B5D6CD981FD601D00014CD61 /* mcdonalds.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5D6CD971FD601C10014CD61 /* mcdonalds.txt */; };
+		B5D6CDA01FD723F10014CD61 /* HeatMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6CD9F1FD723F10014CD61 /* HeatMapOverlay.swift */; };
+		B5D6CDA21FD7245C0014CD61 /* HeatMapOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6CDA11FD7245C0014CD61 /* HeatMapOverlayRenderer.swift */; };
+		B5DA37E31FD73D3400E6B589 /* FilterResultMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA37E21FD73D3400E6B589 /* FilterResultMapViewController.swift */; };
+		B5DA37E51FD781A900E6B589 /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA37E41FD781A900E6B589 /* FilterButton.swift */; };
+		B5DA37E71FD7A39700E6B589 /* Tagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA37E61FD7A39600E6B589 /* Tagger.swift */; };
+		DAD95BB78D53F1BCAB34F37E /* Pods_SolasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52665D458DB0C58B75CD497C /* Pods_SolasUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +62,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A7EDB7DABE28E39D4E93CD8 /* Pods-SolasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SolasUITests/Pods-SolasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21D8E55828682E98DA106408 /* Pods_SolasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E421125F8E93F1A5610A2E8 /* Pods-SolasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SolasTests/Pods-SolasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3354F96306F2FE76306AB059 /* Pods-Solas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Solas/Pods-Solas.release.xcconfig"; sourceTree = "<group>"; };
+		4D7F8AD4F511DE22025D2DE4 /* Pods_Solas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52665D458DB0C58B75CD497C /* Pods_SolasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		590A24C950DB1A45DB25FA16 /* Pods-Solas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Solas/Pods-Solas.debug.xcconfig"; sourceTree = "<group>"; };
+		769D8BB093F9FA65007BE48E /* Pods-SolasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SolasTests/Pods-SolasTests.release.xcconfig"; sourceTree = "<group>"; };
+		B50ABD8C1FCAA90000E37009 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B50ABD8E1FCAAFF200E37009 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B59493411FC3C25A00CF395F /* Solas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59493441FC3C25A00CF395F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B59493461FC3C25A00CF395F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +86,30 @@
 		B59493621FC3C25A00CF395F /* SolasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59493661FC3C25A00CF395F /* SolasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolasUITests.swift; sourceTree = "<group>"; };
 		B59493681FC3C25A00CF395F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59493741FC3C81900CF395F /* HotNowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotNowTableViewCell.swift; sourceTree = "<group>"; };
+		B59493781FC3D01800CF395F /* Solas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Solas-Bridging-Header.h"; sourceTree = "<group>"; };
+		B594937B1FC3D47100CF395F /* HotNowTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotNowTableViewController.swift; sourceTree = "<group>"; };
+		B594937D1FC3D69F00CF395F /* SolasPOI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolasPOI.swift; sourceTree = "<group>"; };
+		B594937F1FC3E87D00CF395F /* POIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIViewController.swift; sourceTree = "<group>"; };
+		B59493811FC4010300CF395F /* FilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
+		B5AB4C1D1FCBF2080037F9F9 /* Solas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Solas.entitlements; sourceTree = "<group>"; };
+		B5AB4C1E1FCCA1B90037F9F9 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		B5AB4C201FCF520C0037F9F9 /* ExpandableCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCells.swift; sourceTree = "<group>"; };
+		B5AB4C221FD143360037F9F9 /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		B5AB4C241FD1A5860037F9F9 /* CheckInMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInMapViewController.swift; sourceTree = "<group>"; };
+		B5AB4C261FD1AC310037F9F9 /* CheckInSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInSearchTableViewController.swift; sourceTree = "<group>"; };
+		B5AB4C281FD1B4060037F9F9 /* MMSlidingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMSlidingButton.swift; sourceTree = "<group>"; };
+		B5AB4C291FD1BF220037F9F9 /* PlacemarkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkDetailViewController.swift; sourceTree = "<group>"; };
+		B5AB4C2B1FD1C84C0037F9F9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B5D6CD931FD5E42D0014CD61 /* FilterResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterResultViewController.swift; sourceTree = "<group>"; };
+		B5D6CD951FD5E7630014CD61 /* FilterResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterResultTableViewController.swift; sourceTree = "<group>"; };
+		B5D6CD971FD601C10014CD61 /* mcdonalds.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mcdonalds.txt; sourceTree = "<group>"; };
+		B5D6CD9F1FD723F10014CD61 /* HeatMapOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapOverlay.swift; sourceTree = "<group>"; };
+		B5D6CDA11FD7245C0014CD61 /* HeatMapOverlayRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapOverlayRenderer.swift; sourceTree = "<group>"; };
+		B5DA37E21FD73D3400E6B589 /* FilterResultMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterResultMapViewController.swift; sourceTree = "<group>"; };
+		B5DA37E41FD781A900E6B589 /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
+		B5DA37E61FD7A39600E6B589 /* Tagger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tagger.swift; sourceTree = "<group>"; };
+		F688317E7465AA5D7A850C70 /* Pods-SolasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SolasUITests/Pods-SolasUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DED29560351DBF91A66F529 /* Pods_Solas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E800EE7E7A01EBA4C95231 /* Pods_SolasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +133,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD95BB78D53F1BCAB34F37E /* Pods_SolasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33DBBB1178664412439920BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D7F8AD4F511DE22025D2DE4 /* Pods_Solas.framework */,
+				21D8E55828682E98DA106408 /* Pods_SolasTests.framework */,
+				52665D458DB0C58B75CD497C /* Pods_SolasUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		669302C45E339AB78EE27BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				590A24C950DB1A45DB25FA16 /* Pods-Solas.debug.xcconfig */,
+				3354F96306F2FE76306AB059 /* Pods-Solas.release.xcconfig */,
+				2E421125F8E93F1A5610A2E8 /* Pods-SolasTests.debug.xcconfig */,
+				769D8BB093F9FA65007BE48E /* Pods-SolasTests.release.xcconfig */,
+				F688317E7465AA5D7A850C70 /* Pods-SolasUITests.debug.xcconfig */,
+				0A7EDB7DABE28E39D4E93CD8 /* Pods-SolasUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B59493381FC3C25900CF395F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +170,8 @@
 				B594935A1FC3C25A00CF395F /* SolasTests */,
 				B59493651FC3C25A00CF395F /* SolasUITests */,
 				B59493421FC3C25A00CF395F /* Products */,
+				669302C45E339AB78EE27BD7 /* Pods */,
+				33DBBB1178664412439920BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +188,38 @@
 		B59493431FC3C25A00CF395F /* Solas */ = {
 			isa = PBXGroup;
 			children = (
+				B5AB4C1D1FCBF2080037F9F9 /* Solas.entitlements */,
 				B59493441FC3C25A00CF395F /* AppDelegate.swift */,
+				B50ABD8C1FCAA90000E37009 /* LoginViewController.swift */,
 				B59493461FC3C25A00CF395F /* FirstViewController.swift */,
 				B59493481FC3C25A00CF395F /* SecondViewController.swift */,
 				B594934A1FC3C25A00CF395F /* Main.storyboard */,
+				B5DA37E61FD7A39600E6B589 /* Tagger.swift */,
+				B5D6CD9F1FD723F10014CD61 /* HeatMapOverlay.swift */,
+				B5D6CDA11FD7245C0014CD61 /* HeatMapOverlayRenderer.swift */,
+				B5D6CD971FD601C10014CD61 /* mcdonalds.txt */,
+				B5AB4C2B1FD1C84C0037F9F9 /* HomeViewController.swift */,
+				B5AB4C281FD1B4060037F9F9 /* MMSlidingButton.swift */,
+				B594937B1FC3D47100CF395F /* HotNowTableViewController.swift */,
+				B59493741FC3C81900CF395F /* HotNowTableViewCell.swift */,
+				B5AB4C291FD1BF220037F9F9 /* PlacemarkDetailViewController.swift */,
+				B5AB4C1E1FCCA1B90037F9F9 /* FilterViewController.swift */,
+				B59493811FC4010300CF395F /* FilterTableViewController.swift */,
+				B5DA37E41FD781A900E6B589 /* FilterButton.swift */,
+				B5D6CD931FD5E42D0014CD61 /* FilterResultViewController.swift */,
+				B5DA37E21FD73D3400E6B589 /* FilterResultMapViewController.swift */,
+				B5D6CD951FD5E7630014CD61 /* FilterResultTableViewController.swift */,
+				B594937F1FC3E87D00CF395F /* POIViewController.swift */,
+				B5AB4C221FD143360037F9F9 /* CheckInViewController.swift */,
+				B5AB4C241FD1A5860037F9F9 /* CheckInMapViewController.swift */,
+				B5AB4C261FD1AC310037F9F9 /* CheckInSearchTableViewController.swift */,
+				B594937D1FC3D69F00CF395F /* SolasPOI.swift */,
 				B594934D1FC3C25A00CF395F /* Assets.xcassets */,
 				B594934F1FC3C25A00CF395F /* LaunchScreen.storyboard */,
 				B59493521FC3C25A00CF395F /* Info.plist */,
+				B50ABD8E1FCAAFF200E37009 /* GoogleService-Info.plist */,
+				B59493781FC3D01800CF395F /* Solas-Bridging-Header.h */,
+				B5AB4C201FCF520C0037F9F9 /* ExpandableCells.swift */,
 			);
 			path = Solas;
 			sourceTree = "<group>";
@@ -135,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B594936B1FC3C25A00CF395F /* Build configuration list for PBXNativeTarget "Solas" */;
 			buildPhases = (
+				DBE0866309380FAF7DC0DBDD /* [CP] Check Pods Manifest.lock */,
 				B594933D1FC3C25A00CF395F /* Sources */,
 				B594933E1FC3C25A00CF395F /* Frameworks */,
 				B594933F1FC3C25A00CF395F /* Resources */,
+				B4F3C4E1CDE67874A33E2942 /* [CP] Embed Pods Frameworks */,
+				E64723D03E4E3C4CB21D400B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B594936E1FC3C25A00CF395F /* Build configuration list for PBXNativeTarget "SolasTests" */;
 			buildPhases = (
+				0F77751BAC82CD6B1765643C /* [CP] Check Pods Manifest.lock */,
 				B59493531FC3C25A00CF395F /* Sources */,
 				B59493541FC3C25A00CF395F /* Frameworks */,
 				B59493551FC3C25A00CF395F /* Resources */,
+				1AB23B0BE8572831D779267E /* [CP] Embed Pods Frameworks */,
+				8C08FA0085395585043F0CDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B59493711FC3C25A00CF395F /* Build configuration list for PBXNativeTarget "SolasUITests" */;
 			buildPhases = (
+				7FBED00BEA232442A6F3CB35 /* [CP] Check Pods Manifest.lock */,
 				B594935E1FC3C25A00CF395F /* Sources */,
 				B594935F1FC3C25A00CF395F /* Frameworks */,
 				B59493601FC3C25A00CF395F /* Resources */,
+				BB18356EA81ED83050130D84 /* [CP] Embed Pods Frameworks */,
+				E738A6D583F64A0A33CE321B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +319,13 @@
 				TargetAttributes = {
 					B59493401FC3C25A00CF395F = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					B59493561FC3C25A00CF395F = {
 						CreatedOnToolsVersion = 9.0;
@@ -235,7 +364,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D6CD981FD601D00014CD61 /* mcdonalds.txt in Resources */,
 				B59493511FC3C25A00CF395F /* LaunchScreen.storyboard in Resources */,
+				B50ABD8F1FCAAFF500E37009 /* GoogleService-Info.plist in Resources */,
 				B594934E1FC3C25A00CF395F /* Assets.xcassets in Resources */,
 				B594934C1FC3C25A00CF395F /* Main.storyboard in Resources */,
 			);
@@ -245,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50ABD901FCAAFF600E37009 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +384,149 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50ABD911FCAAFF600E37009 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F77751BAC82CD6B1765643C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1AB23B0BE8572831D779267E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SolasTests/Pods-SolasTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FBED00BEA232442A6F3CB35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C08FA0085395585043F0CDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SolasTests/Pods-SolasTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4F3C4E1CDE67874A33E2942 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Solas/Pods-Solas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB18356EA81ED83050130D84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SolasUITests/Pods-SolasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE0866309380FAF7DC0DBDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E64723D03E4E3C4CB21D400B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Solas/Pods-Solas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E738A6D583F64A0A33CE321B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SolasUITests/Pods-SolasUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B594933D1FC3C25A00CF395F /* Sources */ = {
@@ -263,8 +534,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59493491FC3C25A00CF395F /* SecondViewController.swift in Sources */,
+				B5AB4C2A1FD1BF230037F9F9 /* PlacemarkDetailViewController.swift in Sources */,
+				B5DA37E31FD73D3400E6B589 /* FilterResultMapViewController.swift in Sources */,
+				B594937E1FC3D69F00CF395F /* SolasPOI.swift in Sources */,
+				B59493801FC3E87D00CF395F /* POIViewController.swift in Sources */,
+				B5D6CD961FD5E7630014CD61 /* FilterResultTableViewController.swift in Sources */,
 				B59493451FC3C25A00CF395F /* AppDelegate.swift in Sources */,
+				B59493751FC3C81900CF395F /* HotNowTableViewCell.swift in Sources */,
+				B5DA37E71FD7A39700E6B589 /* Tagger.swift in Sources */,
+				B5AB4C271FD1AC310037F9F9 /* CheckInSearchTableViewController.swift in Sources */,
+				B5D6CD941FD5E42D0014CD61 /* FilterResultViewController.swift in Sources */,
+				B594937C1FC3D47100CF395F /* HotNowTableViewController.swift in Sources */,
+				B5AB4C251FD1A5860037F9F9 /* CheckInMapViewController.swift in Sources */,
+				B5AB4C1F1FCCA1B90037F9F9 /* FilterViewController.swift in Sources */,
+				B5D6CDA21FD7245C0014CD61 /* HeatMapOverlayRenderer.swift in Sources */,
+				B5AB4C211FCF520C0037F9F9 /* ExpandableCells.swift in Sources */,
+				B5AB4C2C1FD1C84C0037F9F9 /* HomeViewController.swift in Sources */,
 				B59493471FC3C25A00CF395F /* FirstViewController.swift in Sources */,
+				B50ABD8D1FCAA90000E37009 /* LoginViewController.swift in Sources */,
+				B5AB4C231FD143360037F9F9 /* CheckInViewController.swift in Sources */,
+				B5DA37E51FD781A900E6B589 /* FilterButton.swift in Sources */,
+				B59493821FC4010300CF395F /* FilterTableViewController.swift in Sources */,
+				B5D6CDA01FD723F10014CD61 /* HeatMapOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +719,19 @@
 		};
 		B594936C1FC3C25A00CF395F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590A24C950DB1A45DB25FA16 /* Pods-Solas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Solas/Solas.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZV9JB2U7V;
+				DEVELOPMENT_TEAM = 8YJ2342CPM;
 				INFOPLIST_FILE = Solas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = punya.Solas;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs147.solas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Solas/Solas-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,14 +739,18 @@
 		};
 		B594936D1FC3C25A00CF395F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3354F96306F2FE76306AB059 /* Pods-Solas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Solas/Solas.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UZV9JB2U7V;
+				DEVELOPMENT_TEAM = 8YJ2342CPM;
 				INFOPLIST_FILE = Solas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = punya.Solas;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs147.solas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Solas/Solas-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +758,7 @@
 		};
 		B594936F1FC3C25A00CF395F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E421125F8E93F1A5610A2E8 /* Pods-SolasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +776,7 @@
 		};
 		B59493701FC3C25A00CF395F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769D8BB093F9FA65007BE48E /* Pods-SolasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +794,7 @@
 		};
 		B59493721FC3C25A00CF395F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F688317E7465AA5D7A850C70 /* Pods-SolasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +811,7 @@
 		};
 		B59493731FC3C25A00CF395F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7EDB7DABE28E39D4E93CD8 /* Pods-SolasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

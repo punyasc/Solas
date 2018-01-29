@@ -1,0 +1,6 @@
+framework module Pods_Solas {
+  umbrella header "Pods-Solas-umbrella.h"
+
+  export *
+  module * { export * }
+}

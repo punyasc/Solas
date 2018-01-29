@@ -16,10 +16,45 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>FirebaseGoogle</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.248599810850-s4306k4f01593dosicmh40d71bp5kutk</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>FirebaseFacebook</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb156200764992368</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>FacebookAppID</key>
+	<string>156200764992368</string>
+	<key>FacebookDisplayName</key>
+	<string>Solas</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbauth2</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Solas wants to know your location.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Solas wants to know your location.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
